@@ -56,7 +56,9 @@ The recommended way is npm install.
 ```unix  
    $ cd SendBirdSample  
    $ npm install sendbird --save  
-```
+```  
+![Install SendBird JavaScript SDK](https://s3-ap-northeast-1.amazonaws.com/sendbird-react-native-tutorial-image/install_sdk.png)  
+
 
 ### (Optional) Download the Sample App  
 This app is a simple chat app that we are going to build through this tutorial.  
