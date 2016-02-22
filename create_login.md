@@ -230,8 +230,21 @@ Following screen will be displayed.
   
 
 ### 3. Debug with Chrome development tools
-
-
+개발을 하며 `console.log()`를 통해 확인을 하는 방법을 알아보겠습니다.  
+`command+D`를 누르면 아래 화면과 같이 `Debug in Chrome`이라는 버튼이 보입니다.  
+  
+<img src="https://s3-ap-northeast-1.amazonaws.com/sendbird-react-native-tutorial-image/login-image-03.png" width=373 height=685 />    
+  
+이 버튼을 클릭하면 `Chrome`창이 나타나고 개발자 도구를 이용하여 `console`에 찍히는 값을 확인할 수 있습니다.  
+  
+<img src="https://s3-ap-northeast-1.amazonaws.com/sendbird-react-native-tutorial-image/login-image-04.png" width=766 height=221 />  
+    
+위의 코드에서 `LOGIN`버튼을 클릭했을때 호출되는 함수로 `onPress`를 등록해 놓았습니다.  
+`TextInput`에 `nickname`을 입력하고 `LOGIN`버튼을 클릭했을때 입력한 값이 `Chrome Development Tools`에 나타나면 정상적으로 동작하는 것입니다  
+다음과 같이 나타나면 정상적으로 동작하고 있는 것입니다.  
+  
+<img src="https://s3-ap-northeast-1.amazonaws.com/sendbird-react-native-tutorial-image/login-image-05.png" width=893 height=481 />  
+  
 
 ### 4. Login SendBird
 
