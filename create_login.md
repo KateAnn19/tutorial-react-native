@@ -18,9 +18,9 @@ Following screen will be displayed.
   
   
 ### 2. Make Navigator
-In this part, We are going to add screen transition in our app with [Navigator](http://facebook.github.io/react-native/docs/navigator.html#content).   
-First, Make a `src` directory under the `root` directory and make a `main.js` file inside of the `src` directory.  
-Second, Make a `components` directory under the `src` directory and make a `login.js` file inside of the `components` directory.  
+In this part, we are going to add screen transition in our app with [Navigator](http://facebook.github.io/react-native/docs/navigator.html#content).   
+First, make a `src` directory under the `root` directory and make a `main.js` file inside of the `src` directory.  
+Second, make a `components` directory under the `src` directory and make a `login.js` file inside of the `components` directory.  
   
 <img src="https://s3-ap-northeast-1.amazonaws.com/sendbird-react-native-tutorial-image/make-file-01.png" width=202 height=329 />  
   
@@ -229,23 +229,81 @@ Following screen will be displayed.
 <img src="https://s3-ap-northeast-1.amazonaws.com/sendbird-react-native-tutorial-image/login-image-02.png" width=372 height=684 />  
   
 
-### 3. Debug with Chrome development tools
-개발을 하며 `console.log()`를 통해 확인을 하는 방법을 알아보겠습니다.  
-`command+D`를 누르면 아래 화면과 같이 `Debug in Chrome`이라는 버튼이 보입니다.  
+### 3. Debug with Chrome developer tools
+Let's check how to use `console.log()` for validation when you develop.  
+Press `command + D` and you can see `Debug in Chrome` button as follows.  
   
 <img src="https://s3-ap-northeast-1.amazonaws.com/sendbird-react-native-tutorial-image/login-image-03.png" width=373 height=685 />    
   
-이 버튼을 클릭하면 `Chrome`창이 나타나고 개발자 도구를 이용하여 `console`에 찍히는 값을 확인할 수 있습니다.  
+When you click this button, `Chrome` window will come out and You can check the value on `console` tab in Chrome developer tool.  
   
 <img src="https://s3-ap-northeast-1.amazonaws.com/sendbird-react-native-tutorial-image/login-image-04.png" width=766 height=221 />  
     
-위의 코드에서 `LOGIN`버튼을 클릭했을때 호출되는 함수로 `onPress`를 등록해 놓았습니다.  
-`TextInput`에 `nickname`을 입력하고 `LOGIN`버튼을 클릭했을때 입력한 값이 `Chrome Development Tools`에 나타나면 정상적으로 동작하는 것입니다  
-다음과 같이 나타나면 정상적으로 동작하고 있는 것입니다.  
+In this code, `onPress` function is called when you click `LOGIN` button.  
+When you insert `nickname` in `TextInput` and click `LOGIN` button if the insert value is displayed on `Chrome Developer Tools`, than you can think the process succeeded.  
+The following is the success state.  
   
 <img src="https://s3-ap-northeast-1.amazonaws.com/sendbird-react-native-tutorial-image/login-image-05.png" width=893 height=481 />  
   
 
 ### 4. Login SendBird
+Declare this to use SendBird `JavaScript SDK`.  
+  
+```javascript  
+  
+  var React = require('react-native');
+  var {
+    View,
+    Text,
+    TextInput,
+    TouchableHighlight,
+    StyleSheet
+  } = React;
+  
+  var sendbird = require('sendbird');
+  
+  module.exports = React.createClass({
+    getInitialState: function() {
+      return {
+        username: ''
+      };
+    },
+  ...
+```  
+  
+Modify `onPress` function as follows that is called when you clicked `LOGIN` button.
+`app_id` refers to app_id of Sample Application that is used in SendBird.  
+You can insert your own app_id of SendBird.  
+  
+<a class="sendbird-btn sendbird-btn--green" href="https://dashboard.sendbird.com/" target="_blank">Make SendBird Application</a>  
+    
+  
+```javascript  
+  ...
+  onPress: function() {
+    sendbird.init({
+      app_id: 'A7A2672C-AD11-11E4-8DAA-0A18B21C2D82',
+      guest_id: this.state.username,
+      user_name: this.state.username,
+      image_url: "",
+      access_token: "",
+      successFunc: (data) => {
+        console.log('success');
+      },
+      errorFunc: (status, error) => {
+        this.setState({username: ''});
+      }
+    });
+  }
+  ...
+```  
+  
+When you insert `nickname` and click `LOGIN` button if following screen is displayed, than you can think the process succeeded.  
 
+  
+<img src="https://s3-ap-northeast-1.amazonaws.com/sendbird-react-native-tutorial-image/login-image-06.png" width=901 height=352 />  
+  
 
+At the next part, we are going to bring `Channel List` and print to our screen. [Next Step](create_channel_list.md)  
+  
+  
