@@ -57,6 +57,7 @@ The recommended way is npm install.
    $ cd SendBirdSample  
    $ npm install sendbird --save  
 ```  
+  
 ![Install SendBird JavaScript SDK](https://s3-ap-northeast-1.amazonaws.com/sendbird-react-native-tutorial-image/install_sdk.png)  
 
 
