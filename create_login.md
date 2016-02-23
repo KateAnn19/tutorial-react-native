@@ -117,7 +117,7 @@ Modify `src/components/login.js` file as follows.
 ```  
   
 
-Refresh the simulator.  
+Refresh the Simulator.  
 Following screen will be displayed.  
   
 <img src="https://s3-ap-northeast-1.amazonaws.com/sendbird-react-native-tutorial-image/login-image-01.png" width=372 height=684 />  
@@ -223,7 +223,7 @@ Add `TextInput`, `TouchableHighlight` and `getInitialState` function.
 
 ```  
   
-Refresh the simulator.  
+Refresh the Simulator.  
 Following screen will be displayed.  
   
 <img src="https://s3-ap-northeast-1.amazonaws.com/sendbird-react-native-tutorial-image/login-image-02.png" width=372 height=684 />  
@@ -235,7 +235,7 @@ Press `command + D` and you can see `Debug in Chrome` button as follows.
   
 <img src="https://s3-ap-northeast-1.amazonaws.com/sendbird-react-native-tutorial-image/login-image-03.png" width=373 height=685 />    
   
-When you click this button, `Chrome` window will come out and You can check the value on `console` tab in Chrome developer tool.  
+When you click this button, `Chrome` window will come out and You can check the value on `Console` tab in Chrome developer tool.  
   
 <img src="https://s3-ap-northeast-1.amazonaws.com/sendbird-react-native-tutorial-image/login-image-04.png" width=766 height=221 />  
     
@@ -272,8 +272,8 @@ Declare this to use SendBird `JavaScript SDK`.
 ```  
   
 Modify `onPress` function as follows that is called when you clicked `LOGIN` button.
-`app_id` refers to app_id of Sample Application that is used in SendBird.  
-You can insert your own app_id of SendBird.  
+`app_id` refers to `app_id` of Sample Application that is used in SendBird.  
+You can insert your own `app_id` of SendBird.  
   
 <a class="sendbird-btn sendbird-btn--green" href="https://dashboard.sendbird.com/" target="_blank">Make SendBird Application</a>  
     

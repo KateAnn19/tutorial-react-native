@@ -22,7 +22,6 @@ This tutorial is based on OS X.
 ## Create React Native Application  
 Make sample project using `react-native init ` command.  
 
- - e.g.)  
 ```unix  
    $ react-native init SendBirdSample  
 ```  
@@ -52,7 +51,6 @@ or
 
 The recommended way is npm install.  
   
- - e.g.)  
 ```unix  
    $ cd SendBirdSample  
    $ npm install sendbird --save  
@@ -63,8 +61,8 @@ The recommended way is npm install.
 
 ### (Optional) Download the Sample App  
 This app is a simple chat app that we are going to build through this tutorial.  
-<a class="sendbird-btn sendbird-btn--green" href="https://github.com/smilefam/sendbird-sample/tree/master/SendBirdWebSample" target="_blank">Simple Sample app - Click here to see repository</a>  
+<a class="sendbird-btn sendbird-btn--green" href="https://github.com/smilefam/SendBird-JavaScript/tree/master/tutorial-react-native-sample/SendBirdSample" target="_blank">Tutorial Sample app - Click here to see repository</a>  
 
 This app is a sample app that are built with more various features.  
-<a class="sendbird-btn sendbird-btn--green" href="https://github.com/smilefam/sendbird-sample/tree/master/SendBirdWebSample" target="_blank">Basic Sample app - Click here to see repository</a>  
+<a class="sendbird-btn sendbird-btn--green" href="https://github.com/smilefam/SendBird-JavaScript/tree/master/basic-react-native-sample/SendBirdReactNativeSample" target="_blank">Basic Sample app - Click here to see repository</a>  
 

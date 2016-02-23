@@ -259,7 +259,7 @@ Modify `onChannelPress` function as follows that is called when you click channe
   ...
 ```  
 
-Following screen shows when `Game Insight` is selected from `channel list`.  
+Following screen shows when `Game Insight` is selected from `Channel List`.  
 Following screen means that the process succeeded.   
   
 <img src="https://s3-ap-northeast-1.amazonaws.com/sendbird-react-native-tutorial-image/channels-03.png" width=913 height=708 />  
