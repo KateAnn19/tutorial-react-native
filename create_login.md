@@ -126,7 +126,7 @@ Following screen will be displayed.
 ### 3. Make Login View
 We make one input box and one login button.  
 We need [TextInput](http://facebook.github.io/react-native/docs/textinput.html#content), [TouchableHighlight](http://facebook.github.io/react-native/docs/touchablehighlight.html#content) and `getInitialState` for this view.  
-`getInitialState` is init code before call `render` function.  
+`getInitialState` is initial code before call `render` function.  
 And for SendBird login, need `sendbird` that we install package previous step.  
 
 Add `TextInput`, `TouchableHighlight` and `getInitialState` function.  

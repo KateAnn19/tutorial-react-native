@@ -39,7 +39,7 @@ Modify `src/components/channels.js` file as follows.
     
 ```  
   
-Add channels we made in `ROUTES` of `src/main.js` file.   
+Add `channels` we made in `ROUTES` of `src/main.js` file.   
   
 ```javascript  
   ...
