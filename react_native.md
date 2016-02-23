@@ -65,4 +65,5 @@ This app is a simple chat app that we are going to build through this tutorial.
 
 This app is a sample app that are built with more various features.  
 <a class="sendbird-btn sendbird-btn--green" href="https://github.com/smilefam/SendBird-JavaScript/tree/master/basic-react-native-sample/SendBirdReactNativeSample" target="_blank">Basic Sample app - Click here to see repository</a>  
-
+  
+[Next Step](create_login.md)  
