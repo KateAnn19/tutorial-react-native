@@ -66,4 +66,18 @@ This app is a simple chat app that we are going to build through this tutorial.
 This app is a sample app that are built with more various features.  
 <a class="sendbird-btn sendbird-btn--green" href="https://github.com/smilefam/SendBird-JavaScript/tree/master/basic-react-native-sample/SendBirdReactNativeSample" target="_blank">Basic Sample app - Click here to see repository</a>  
   
+  
+### Used list
+ * [Navigator](http://facebook.github.io/react-native/docs/navigator.html#content)  
+ * [View](http://facebook.github.io/react-native/docs/view.html#content)  
+ * [Text](http://facebook.github.io/react-native/docs/text.html#content)  
+ * [Image](http://facebook.github.io/react-native/docs/image.html#content)  
+ * [TextInput](http://facebook.github.io/react-native/docs/textinput.html#content)  
+ * [ListView](http://facebook.github.io/react-native/docs/listview.html#content)  
+ * [ScrollView](http://facebook.github.io/react-native/docs/scrollview.html#content)  
+ * [TouchableHighlight](http://facebook.github.io/react-native/docs/touchablehighlight.html#content)  
+ * [StyleSheet](http://facebook.github.io/react-native/docs/stylesheet.html#content)  
+ * [Dimensions](http://facebook.github.io/react-native/docs/dimensions.html#content)  
+  
+  
 [Next Step](create_login.md)  
