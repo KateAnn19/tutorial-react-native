@@ -8,7 +8,6 @@ Enjoy building your amazing app! :)
 
 ### Summary
 
-* [Introduction](README.md)
 * [Installation React Native](react_native.md)
 * [Create Login View](create_login.md)
 * [Create Channel List View](create_channel_list.md)
