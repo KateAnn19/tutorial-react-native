@@ -473,7 +473,7 @@ Refresh and test your application. Following screen will be displayed.
 You can check the messages are transmitted successfully.  
 You can get another sample with more features below.  
 
-<a class="sendbird-btn sendbird-btn--green" href="https://github.com/smilefam/SendBird-JavaScript/tree/master/basic-sample" target="_blank">Basic Sample app - Click here to see repository</a>  
+<a class="sendbird-btn sendbird-btn--green" href="https://github.com/sendbird/SendBird-JavaScript/tree/master/basic-sample" target="_blank">Basic Sample app - Click here to see repository</a>  
 
 
 

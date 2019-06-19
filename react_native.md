@@ -35,7 +35,7 @@ If you ended making React Native sample project, open this folder using atom or 
 This tutorial will use SendBird's `JavaScript SDK`.  
 Download the latest SendBird's `JavaScript SDK` file.  
 
-<a class="sendbird-btn sendbird-btn--green" href="https://github.com/smilefam/SendBird-SDK-JavaScript" target="_blank">Latest SendBird JavaScript SDK - Click here to download</a>  
+<a class="sendbird-btn sendbird-btn--green" href="https://github.com/sendbird/SendBird-SDK-JavaScript" target="_blank">Latest SendBird JavaScript SDK - Click here to download</a>  
 
 or  
 
@@ -61,10 +61,10 @@ The recommended way is npm install.
 
 ### (Optional) Download the Sample App  
 This app is a simple chat app that we are going to build through this tutorial.  
-<a class="sendbird-btn sendbird-btn--green" href="https://github.com/smilefam/SendBird-JavaScript/tree/master/tutorial-react-native-sample/SendBirdSample" target="_blank">Tutorial Sample app - Click here to see repository</a>  
+<a class="sendbird-btn sendbird-btn--green" href="https://github.com/sendbird/SendBird-JavaScript/tree/master/tutorial-react-native-sample/SendBirdSample" target="_blank">Tutorial Sample app - Click here to see repository</a>  
 
 This app is a sample app that are built with more various features.  
-<a class="sendbird-btn sendbird-btn--green" href="https://github.com/smilefam/SendBird-JavaScript/tree/master/basic-react-native-sample/SendBirdReactNativeSample" target="_blank">Basic Sample app - Click here to see repository</a>  
+<a class="sendbird-btn sendbird-btn--green" href="https://github.com/sendbird/SendBird-JavaScript/tree/master/basic-react-native-sample/SendBirdReactNativeSample" target="_blank">Basic Sample app - Click here to see repository</a>  
   
   
 ### Used list
